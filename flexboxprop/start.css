@@ -1,0 +1,25 @@
+.colors {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+#green {
+  order: 1;
+}
+
+#yellow {
+  order: 0;
+}
+
+#orange {
+  flex-grow: 1;
+  order: 3;
+}
+#red {
+  order: 0;
+}
+
+#blue {
+  order: 3;
+}
