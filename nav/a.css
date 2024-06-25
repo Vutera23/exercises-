@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  margin: 0.5rem;
+}
+.navbar {
+  display: flex;
+  background: #363434;
+  justify-content: space-between;
+}
+.navbar__list {
+  display: flex;
+  margin: 1rem;
+  gap: 1rem;
+}
+.navbar__search {
+  display: flex;
+  margin: 1rem;
+}
+.button {
+  border: 1px solid green;
+  color: green;
+  background-color: #000;
+  margin-left: 0.5rem;
+  border-radius: 10%;
+  padding: 0.3rem;
+}
+.button:hover {
+  background-color: green;
+  color: white;
+}
